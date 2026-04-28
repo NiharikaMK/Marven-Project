@@ -7,4 +7,4 @@
     - name: Copy JAR file
       copy: 
         src: "/var/lib/jenkins/workspace/HelloMaven-CI/target/HelloMaven-1.0-SNAPSHOT.jar"
-        dest: "/opt/deploy/HelloMaven.jar"
+        dest: "/opt/deployment/HelloMaven.jar"
