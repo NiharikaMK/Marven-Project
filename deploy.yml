@@ -8,4 +8,4 @@
     - name: Copy JAR file
       copy: 
         src: "/home/administrator/.jenkins/workspace/HelloMaven-CII/target/MyFirstMavenApp-1.0-SNAPSHOT.jar"
-        dest: ~/pt/deployment/HelloMaven.jar
+        dest: /home/administrator/pt/deployment/HelloMaven.jar
